@@ -47,10 +47,10 @@ def datamuse(new_word):
 def photo_titles(tag, num):
     # HINT: Trying out the flickr accessing code in another file and seeing what data you get will help debug what you need to add and send to the template!
     # HINT 2: This is almost all the same kind of nested data investigation you've done before!
-    FLICKR_KEY = "21e4f27d80d2e02adb6f0da1aac601ee" # TODO: fill in a flickr key
+    FLICKR_KEY = " " # TODO: fill in a flickr key
     baseurl = 'https://api.flickr.com/services/rest/'
     params = {}
-    params['api_key'] = "21e4f27d80d2e02adb6f0da1aac601ee"
+    params['api_key'] = FLICKR_KEY
     params['method'] = 'flickr.photos.search'
     params['format'] = 'json'
     params['tag_mode'] = 'all'
